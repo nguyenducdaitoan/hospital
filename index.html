@@ -1,0 +1,319 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Spruce Sales & CRM Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Spruce Sales & CRM Documentation&rdquo; Documentation by &ldquo;Spruce&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Spruce Sales & CRM Documentation&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 11/05/2015<br>
+					By: Spruce<br>
+					Email: <a href="mailto:support@sprucetech.com">support@spruce.jo</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my script. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/sprucetech">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">			
+			<li><a href="#easy_installation" title="Easy Installation">Easy Installation</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>			 
+			<li><a href="#sourcecode" title="Source Code Explanation">Source Code Explanation</a></li>
+			
+			 
+		</ol>
+		
+		<hr>
+		
+		 
+			<h3 id="easy_installation"><strong>A) Easy Installation</strong> - <a href="#toc">top</a></h3>
+			<p>
+				<b>You can install the sales module by following these 4 easy steps</b><br>
+				<br>
+				1. Upload spruce_sales_crm.zip to your server and extract it<br>
+				<br>
+				2. Create a database and database user.<br>
+				<br>
+				3. Now browse to http://yourdomain.com and you will see an installation screen.
+			</p>
+			<p>
+				<img  alt="" src="assets/images/install_step1.png" style="width: 600px;"><br>
+				<br>
+				4. Now provide your database settings
+			</p>
+
+			<p>
+				<img   alt="" src="assets/images/install_step2.png" style="width: 600px;">
+			</p>
+
+			<p>
+				5.  If provided database settings are ok, then you will be redirected to the next step. Provide your administration setting here.
+			</p>
+
+			<p>
+				<img  alt="" src="assets/images/install_step3.png" style="width: 600px;">
+			</p>
+			
+			<p>
+				Press run installer then the sales module will be installed
+				<p><img  alt="" src="assets/images/install_step4.png" style="width: 600px;"></p>
+				You can visit the staff backend using<br>
+				<br>
+				<b>http://yourdomain.com/admin/login</b><br>
+				<br>
+				and the customer backend panel using<br>
+				<br>
+				<b>http://yourdomain.com/customer/login</b></p>
+				<p>
+				 
+			</p>
+			 <hr>
+ 		<h3 id="features"><strong>B) Features</strong> - <a href="#toc">top</a></h3>
+ 		<ul>
+			<li>Leads Management</li>
+			<li>Opportunities</li>
+			<li>Customer &amp; Contacts Management</li>
+			<li>Calls Logs</li>
+			<li>Meetings Schedule</li>
+			<li>Products &amp; Categories</li>
+			<li>Quotations</li>
+			<li>Sales Orders</li>
+			<li>Invoicing &amp; Payments</li>
+			<li>Pricelists&nbsp;</li>
+			<li>Contracts</li>
+			<li>Calender</li> 
+		</ul>
+		<img  alt="" src="assets/images/dashboard.png" style="width: 1000px;">
+		<hr>		
+		<h3 id="htmlStructure"><strong>C) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		 
+		<b>Navigation</b> 
+
+		<img src="assets/images/htmlstructure_1.png" alt="HTML Structure"/>
+		 
+		<b>Header</b> <br/> 
+		<img src="assets/images/htmlstructure_2.png" alt="HTML Structure" width="" />
+		<img src="assets/images/htmlstructure_3.png" alt="HTML Structure" width="" />
+		<b>Content</b> <br/> 
+		 <img src="assets/images/htmlstructure_4.png" alt="HTML Structure" width="" />
+		<b>Footer</b> <br/> 
+			<img src="assets/images/htmlstructure_5.png" alt="HTML Structure" width="" /> 
+		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>D) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using main 3 CSS files in this script.</p> 
+
+		 <ul>
+		 	<li>style.css</li>
+		 	<li>theme.css</li>
+		 	<li>ui.css</li>
+		 </ul>
+
+<pre>	/* === Header Section === */
+
+	.topbar {
+  -moz-transition: color 0.2s ease-out 0;
+  -webkit-transition: color 0.2s ease-out 0;
+  background: #ffffff;
+  height: 50px;
+  transition: color 0.2s ease-out 0;
+  position: relative;
+}
+.topbar::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.topbar .header-left {
+  float: left;
+}
+.topbar .header-left .topnav {
+  float: left;
+  height: 50px;
+  margin: 0;
+}
+.topbar .header-left .topnav .menutoggle {
+  background: none;
+  color: #2b2e33;
+  cursor: pointer;
+  float: left;
+  font-size: 22px;
+  height: 50px;
+  position: relative;
+  text-decoration: none !important;
+  width: 50px;
+}
+.topbar .header-left .topnav .menutoggle i {
+  display: inline-block;
+  margin: 14px 0 0 13px;
+}
+
+	/* === Main Section === */
+	
+	.main-content {
+  background: #F5F5F5;
+  margin-left: 240px;
+  min-height: 750px;
+}
+.main-content .page-content {
+  background: #F5F5F5;
+  margin-top: 50px;
+  overflow: hidden;
+  padding: 20px 50px 0;
+  position: relative;
+  height: 100%;
+}
+.main-content .page-content h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.main-content .page-content::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.main-content .page-content .row-sm[class^="col-"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main-content .page-content .row-xs[class^="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.main-content .page-content .colors-list {
+  height: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-content .page-content .colors-list > li {
+  background: #000000;
+  display: inline-block;
+  filter: alpha(opacity=60);
+  float: left;
+  height: 20px;
+  margin: 4px;
+  opacity: .6;
+  padding: 0;
+  width: 20px;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+	
+	/* === Sidebar Section === */
+	
+	.sidebar .sidebar-inner {
+  background-color: #2b2e33;
+  height: 100%;
+  padding: 0;
+  z-index: 2;
+}
+.sidebar .sidebar-inner .menu-title {
+  font-size: 12px;
+  margin-bottom: 0;
+  padding: 20px 20px 15px 20px;
+  position: relative;
+  text-align: left;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+}
+	
+	/* === Footer === */
+	
+	.main-content .page-content > .footer,
+.main-content .page-content > div > .footer {
+  bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+.main-content .page-content > .footer .copyright,
+.main-content .page-content > div > .footer .copyright {
+  border-top: 1px solid rgba(12, 12, 12, 0.07);
+  padding: 20px 0;
+  z-index: 15;
+}
+</pre>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+ 
+
+		<hr>
+		
+		<h3 id="javascript"><strong>E) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports four Javascript files.</p>
+		
+		<ol>
+			<li>application.js</li>			 
+			<li>plugins.js</li>
+			<li>quickview.js</li>
+			<li>sidebar_hover.js</li>
+		</ol>
+		  
+		  
+		<hr>
+		
+		<h3 id="sourcecode"><strong>F) Source Code Explanation</strong> - <a href="#toc">top</a></h3>
+		
+		 <p>We've used codeigniter version 2.2.2 as framework. As you know codeigniter basically is a MVC frame work. For spruce we have used the HMVC version of Codeigniter. The H of HMVC stands for Hierarchical. In normal MVC model controllers, models and views are organized under ROOT/application directory. But in HMVC, there is one more level "Modules" under ROOT/application directory.</p>
+ 	
+ 	<p>Suppose you have a module "admin" under this modules directory. Now controllers, models and views for this module can be placed under "ROOT/application/modules/admin/controllers","ROOT/application/modules/admin/models" and "ROOT/application/modules/admin/views" directory.</p> 
+ 	
+ 	<img class="front-img" alt="" src="assets/images/sourcecode.png" style="width: 100%;">
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this script. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the script on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Spruce</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
